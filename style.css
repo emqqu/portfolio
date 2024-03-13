@@ -1,23 +1,23 @@
-@import url(./lunacy.ttf);
-@import url(./RomanceA.ttf);
-@import url(./basiic.ttf);
+@import url(./fonts/lunacy.ttf);
+@import url(./fonts/RomanceA.ttf);
+@import url(./fonts/basiic.ttf);
 
 @font-face {
     font-family: lunacy;
-    src: url(./lunacy.ttf);
+    src: url(./fonts/lunacy.ttf);
 }
 
 @font-face {
   font-family: Romance;
-  src: url(./RomanceA.ttf);
+  src: url(./fonts/RomanceA.ttf);
 }
 
 @font-face {
   font-family: Basiic;
-  src: url(./basiic.ttf);
+  src: url(./fonts/basiic.ttf);
 }
 body {
-    background-image: url(./stars2.gif);
+    background-image: url(./pics/stars2.gif);
     background-repeat: repeat;
     color-scheme: dark;
     color: rgb(255, 255, 255);
