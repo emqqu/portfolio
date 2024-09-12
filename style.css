@@ -12,6 +12,7 @@ body {
     background-size: 200px;
     background-color: #111;
     color: yellow;
+    overflow-x: hidden;
 }
 
 a {
@@ -55,5 +56,12 @@ hr{
     border: yellow 1px solid;
     display: flex;
     justify-content: space-evenly;
+    width: 420px;
+}
+
+div.blog {
+    margin-top : 8px;
+    padding: 4px;
+    border: yellow 1px solid;
     width: 420px;
 }
