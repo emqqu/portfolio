@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Flexi";
-    src: url(/fonts/Flexi_IBM_VGA_False.ttf);
+    src: url(Flexi_IBM_VGA_False.ttf);
 }
 
 body {
@@ -44,6 +44,7 @@ li::marker {
     height: 100%;
     width: 360px;
     background-color: #aaaaaa00;
+    margin-right: 16px;
 }
 
 hr{
@@ -64,4 +65,21 @@ div.blog {
     padding: 4px;
     border: yellow 1px solid;
     width: 420px;
+}
+
+
+.listInlist {
+    margin-left: 24px ;
+}
+
+ul.listInlist {
+    padding: 8px;
+    list-style-type: '+ ';
+    width: 360px;
+}
+
+
+strong {
+    color: blanchedalmond;
+    font-family: monospace;
 }
