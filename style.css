@@ -11,17 +11,19 @@ body {
     background-repeat: repeat;
     background-size: 200px;
     background-color: #111;
-    color: yellow;
+    color: rgb(255, 79, 132);
     overflow-x: hidden;
+    cursor: url(./media/cursor1.png), auto;
+
 }
 
 a {
-    color: violet;
-    transition: 0.2s;
+    color: rgb(162, 0, 255);
 }
 
 a:hover{
-    color: blueviolet;
+    color: rgb(237, 147, 255);
+    cursor: url(./media/cursor2.png), auto;
 }
 
 ul {
@@ -35,7 +37,7 @@ li {
 }
 
 li::marker {
-    color:yellow;
+    color:rgb(255, 79, 132);
   }
 
 .rightSideBar{
@@ -48,13 +50,13 @@ li::marker {
 }
 
 hr{
-    color: yellow;
+    color: rgb(255, 79, 132);
 }
 
 .navbar{
     font-size: 14px;
     padding: 4px;
-    border: yellow 1px solid;
+    border: rgb(255, 79, 132) 1px solid;
     display: flex;
     justify-content: space-evenly;
     width: 420px;
